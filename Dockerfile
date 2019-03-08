@@ -2,7 +2,13 @@ FROM node:8-alpine
 
 COPY . /app
 WORKDIR /app
-RUN npm install
+RUN apk add --no-cache --virtual .gyp \
+	python \
+	make \
+	gcc \
+	g++ \
+ && npm install \
+ && apk del .gyp
 
 ENV LOGSWEET_PANEL_HOST 0.0.0.0
 ENV LOGSWEET_PANEL_PORT 80
