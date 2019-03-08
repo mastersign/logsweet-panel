@@ -1,0 +1,20 @@
+body {
+    background: #000810;
+    color: #E0F0FF;
+}
+
+header {
+    padding: 1em;
+    background: white;
+    color: #000810;
+}
+
+.message-list {
+    padding: 1em;
+}
+
+.message {
+    font-family: Consolas, 'Courier New', Courier, monospace;
+    font-size: 0.85em;
+    white-space: pre;
+}

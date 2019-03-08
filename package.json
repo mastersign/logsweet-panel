@@ -1,0 +1,29 @@
+{
+  "name": "logsweet-panel",
+  "version": "0.0.0",
+  "description": "Web interface for displaying log messages from logsweet",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mastersign/logsweet-panel.git"
+  },
+  "keywords": [
+    "logsweet"
+  ],
+  "author": "Tobias Kiertscher",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mastersign/logsweet-panel/issues"
+  },
+  "homepage": "https://github.com/mastersign/logsweet-panel#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "socketio": "^1.0.0",
+    "yargs": "^13.2.2",
+    "zeromq": "^5.1.0"
+  },
+  "bin": {
+    "logsweet-panel": "./index.js"
+  }
+}
