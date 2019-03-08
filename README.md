@@ -47,6 +47,6 @@ Options:
   --version      Show version number
   --config       Path to JSON config file
   --port, -p     Port to bind the HTTP server to (default: 80)
-  --host, -h     IP address to bind the HTTP server to (default: localhost)
+  --host, -h     IP address to bind the HTTP server to (default: 127.0.0.1)
   --connect, -c  Host/IP and port of logsweet PUB sockets
 ```
